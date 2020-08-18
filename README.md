@@ -34,4 +34,7 @@ Similarly for Color Attenuation Prior-
 
 `python colour_attenuation.py images/(image_name)`
 
+## References-
 
+- [Dark Channel Prior](Dark_Channel_Prior.pdf)
+- [Colour Attenuation Prior](Colour_Attenuation_Prior.pdf)

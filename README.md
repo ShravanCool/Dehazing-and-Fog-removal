@@ -1,8 +1,8 @@
 # Image de-hazing and fog removal using DCP and CAP 
 
-This is a simple image retrieval project from foggy and hazy images by usin the methods of Dark Channel Prior and Colour Attenuation Prior. 
+This is a simple image retrieval project from foggy and hazy images by using the methods of Dark Channel Prior and Colour Attenuation Prior. 
 
-# Directions for Setting up Environment-
+## Directions for Setting up Environment-
 
 To install the source, pre-requisites include-
 
@@ -21,5 +21,14 @@ Now, install the python dependencies from requirements.txt:
 ```
 pip install -r requirements.txt
 ```
+
+## Directions to execute-
+
+Inside the main project directory, run the following command-
+`python Dehaze.py images/(image_name) `
+The second argument(of including images) is not compulsory, as it runs with the default image(foggy building) inside the images folder. To run with custom images, add/include that image inside the *images* folder, and then run the command as shown above.
+
+Similarly for Color Attenuation Prior-
+`python colour_attenuation.py images/(image_name)`
 
 

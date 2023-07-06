@@ -5,5 +5,5 @@ numpy==1.22.0
 opencv-python==4.2.0.34
 pyparseing==2.4.7
 python-dateutil==2.8.1
-scipy==1.4.1
+scipy==1.10.0
 six==1.15.0
